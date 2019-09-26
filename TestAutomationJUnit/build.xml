@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="TestAutomation ant pro - ant with junit" default="runjunit">
+<project name="TestAutomation ant pro - ant with junit" default="runjunit" basedir=".">
 	<target name="runjunit" depends="compile">
 		<junit printsummary="on">
 			<test name="testAutomationJUnit.TestNewSalaryCalculation"/>
